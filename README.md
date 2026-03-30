@@ -1,6 +1,7 @@
 # Flower Species Classifier - Color Feature Extraction & k-NN
 
 Aplikacja w Pythonie, która klasyfikuje gatunki kwiatów na podstawie analizy rozkładu barw (przestrzeń kolorów HSV oraz YCbCr) przy użyciu algorytmu k-Najbliższych Sąsiadów (k-NN).
+
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/37600cc4-3c71-493b-b965-280806578d80" />
 
 ## 🧠 Metodologia i Algorytm
@@ -19,5 +20,4 @@ Projekt nie opiera się na prostym porównywaniu pikseli, lecz na **analizie his
 ## 🛠️ Stack Techniczny
 - **Język:** Python
 - **Biblioteki:** - `NumPy` & `Pandas` (operacje na macierzach i plikach CSV)
-  - `Tkinter` (interfejs graficzny GUI)
-  - `Scikit-learn` (implementacja k-NN)
+
