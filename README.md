@@ -1,11 +1,12 @@
 # Flower Species Classifier - Color Feature Extraction & k-NN
 
-Projekt systemu wizyjnego w Pythonie, który klasyfikuje gatunki kwiatów na podstawie analizy rozkładu barw (przestrzeń kolorów HSV) przy użyciu algorytmu k-Najbliższych Sąsiadów (k-NN).
+Aplikacja w Pythonie, która klasyfikuje gatunki kwiatów na podstawie analizy rozkładu barw (przestrzeń kolorów HSV oraz YCbCr) przy użyciu algorytmu k-Najbliższych Sąsiadów (k-NN).
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/37600cc4-3c71-493b-b965-280806578d80" />
 
 ## 🧠 Metodologia i Algorytm
 Projekt nie opiera się na prostym porównywaniu pikseli, lecz na **analizie histogramów barwy (Hue)**:
 1. **Pre-processing:** Przetwarzanie obrazu wejściowego i ekstrakcja cech kolorystycznych.
-2. **Feature Vector:** Tworzenie wektorów cech zapisanych w formacie `.csv` (plik `histogramyhue.csv`).
+2. **Feature Vector:** Tworzenie wektorów cech zapisanych w formacie `.csv`.
 3. **Klasyfikacja:** Porównanie wektora badanego zdjęcia z bazą treningową przy użyciu k-NN w celu znalezienia najbardziej zbliżonego gatunku.
 
 ## 🚀 Instrukcja obsługi
@@ -16,8 +17,7 @@ Projekt nie opiera się na prostym porównywaniu pikseli, lecz na **analizie his
 5. Otrzymaj wynik dopasowania do predefiniowanych gatunków.
 
 ## 🛠️ Stack Techniczny
-- **Język:** Python 3.x
-- **Biblioteki:** - `OpenCV` (przetwarzanie obrazu, ekstrakcja histogramów)
-  - `NumPy` & `Pandas` (operacje na macierzach i plikach CSV)
+- **Język:** Python
+- **Biblioteki:** - `NumPy` & `Pandas` (operacje na macierzach i plikach CSV)
   - `Tkinter` (interfejs graficzny GUI)
   - `Scikit-learn` (implementacja k-NN)
